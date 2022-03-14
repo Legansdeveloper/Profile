@@ -2,8 +2,7 @@
 
 body
 {
-   justify-content: center;
-   display: flex;
+   
    background: #F9F4ED;
    
    
@@ -11,6 +10,11 @@ body
 ul li
 {
    list-style: none;
+   
+   justify-content: center;
+   display: flex;
+   
+   
 }
 ul li a
 {
@@ -19,18 +23,37 @@ ul li a
    font-size: 80px;
    color: #000000;
    border-radius: .25em;
+   margin: auto;
 }
-ul li a figcaption
+ul li figcaption
 {
    font-size: 0.25em;
    position: static;
    bottom: -25%;
    border-radius: .15em;
-   background: rgba(0,0,0,0.85);
+   background:#000000;
    color: #eee;
+   font-size: 50px;
+   
   
 }
-.h3
+
+ol span a 
 {
-   font-size: 30px;
+   position: static;
+   text-decoration: none;
+   color: #000;
+   font-size: 20px;
+
+}
+h3
+{
+   display: flex;
+   justify-content: center;
+}
+p 
+{
+   display: flex;
+   justify-content: center;
+   font-size: 25px;
 }
