@@ -22,15 +22,14 @@ ul li a
    text-decoration: none;
    font-size: 80px;
    color: #000000;
-   border-radius: .25em;
    margin: auto;
 }
 ul li figcaption
 {
-   font-size: 0.25em;
+   
    position: static;
-   bottom: -25%;
-   border-radius: .15em;
+  bottom: -25%;
+   
    background:#000000;
    color: #eee;
    font-size: 50px;
